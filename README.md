@@ -1,3 +1,1 @@
-# KPTXMLPARSE
-mergeKPT.py сбор всех КПТ файлов в 1 папке
-mergeXMLData.py слияние всех кпт в одну, после выполнения, добавить части дерева с данными выше cadastral_bloks и добавить в конце закрывающий тэг
+# cadastr_plans_works
