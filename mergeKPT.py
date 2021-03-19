@@ -1,7 +1,7 @@
 import os
 import shutil
 
-os.chdir(u'C:/Users/A_Libenko/Documents/temp/volg/kpt_v/kpts') #переходим в директорию с распакованными КПТ
+os.chdir(u'"""путь к директории с папками кварталов"""') #переходим в директорию с распакованными КПТ
 mainDir=os.getcwd() #принимаем текущий путь
 folders=os.listdir(mainDir) #принимаем список папок
 print(folders) #выводим список папок
@@ -11,5 +11,5 @@ for eachDir in folders: #для каждого названия папки из 
     filesInDir=os.listdir(os.getcwd()) #получаем список файлов в папке
     os.rename(filesInDir[0],'kpt '+eachDir[-1:-8:-1]+'.xml') #переименовываем файл репорта
     filesInDir=os.listdir(os.getcwd()) #обновляем список файлов в директории
-    destDir=u'C:/Users/A_Libenko/Documents/temp/volg/kpt_v/exit' #целевая директория перемещения
+    destDir=u'"""вызодная папка"""' #целевая директория перемещения
     shutil.move(filesInDir[0],destDir) #перемещаем файлы в новую директорию
