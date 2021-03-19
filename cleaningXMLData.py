@@ -2,12 +2,12 @@
 import os
 from lxml import etree as ET
 
-os.chdir(u'E:/KPT_TEMP/exit') #переходим в директорию с распакованными КПТ
+os.chdir(u'"""путь к директории с распакованными XML""""') #переходим в директорию с распакованными КПТ
 mainDir=os.getcwd() #принимаем текущий путь
 objcts=os.listdir(mainDir) #принимаем список объектов в папке
 print(objcts) #выводим список КПТ, можно удалить
 
-targetXML=open(u'C:/Users/A_Libenko/Documents/temp/volg/kpt_v/singleExit/kpt 010108.xml', 'a', encoding='utf-8') #открываем на дозапись целевую XML, закрывающие тэги  </cadastral_blocks>' и '</extract_cadastral_plan_territory> должны отсутсвовать
+targetXML=open(u'"""путь к выходному XML""""', 'a', encoding='utf-8') #открываем на дозапись целевую XML, закрывающие тэги  </cadastral_blocks>' и '</extract_cadastral_plan_territory> должны отсутсвовать
 
 for elem in objcts: #для каждой КПТ в директории с кпт
     
