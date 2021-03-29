@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extract_cadastral_plan_territory>
+  <details_statement>
+    <group_top_requisites>
+      <organ_registr_rights>TEST</organ_registr_rights>
+      <date_formation>1970-01-01</date_formation>
+      <registration_number>TEST-000/0000-00000000</registration_number>
+    </group_top_requisites>
+  </details_statement>
+  <details_request>
+    <date_received_request>1970-01-01</date_received_request>
+    <date_receipt_request_reg_authority_rights>1970-01-01</date_receipt_request_reg_authority_rights>
+  </details_request>
+  <cadastral_blocks>
